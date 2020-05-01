@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "636603694211",
+    "firebase_url": "https://task3-f2671.firebaseio.com",
+    "project_id": "task3-f2671",
+    "storage_bucket": "task3-f2671.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:636603694211:android:5895f4434d1df36af0efb6",
+        "android_client_info": {
+          "package_name": "com.anshansh.task3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "636603694211-ccqi3uqbeqqvteo3lrgsk675hckv621m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCklBy7P0_UtADCqOXbU6jip5S_SD4G8iY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "636603694211-ccqi3uqbeqqvteo3lrgsk675hckv621m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
