@@ -8,6 +8,8 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
 
+import com.anshansh.task3.LoginRegister.LoginActivity;
+import com.anshansh.task3.Tab.TabsAccessAdapter;
 import com.google.android.material.tabs.TabLayout;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -20,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
     private Toolbar toolbar;
     private ViewPager viewPager;
     private TabLayout tabLayout;
-    private  TabsAccessAdapter tabsAccessAdapter;
+    private TabsAccessAdapter tabsAccessAdapter;
 
     private FirebaseUser currentUser;
     private FirebaseAuth mAuth;
@@ -60,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void SendUserToLoginActivity() {
 
-        Intent loginIntent = new Intent(MainActivity.this,LoginActivity.class);
+        Intent loginIntent = new Intent(MainActivity.this, LoginActivity.class);
         startActivity(loginIntent);
     }
 }
