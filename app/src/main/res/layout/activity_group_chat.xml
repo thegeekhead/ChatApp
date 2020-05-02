@@ -13,11 +13,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/app_bar_layout">
-        <include
-            android:id="@+id/groupchat_bar"
-            layout="@layout/app_bar_layout">
 
-        </include>
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary" />
+
     </com.google.android.material.appbar.AppBarLayout>
 
     <ScrollView
