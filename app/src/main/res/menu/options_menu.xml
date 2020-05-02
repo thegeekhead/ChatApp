@@ -23,4 +23,11 @@
 
     </item>
 
+    <item
+        android:title="Create Group"
+        android:id="@+id/create_grp"
+        app:showAsAction="never">
+
+    </item>
+
 </menu>
