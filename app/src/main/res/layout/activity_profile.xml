@@ -16,10 +16,28 @@
 
     <Button
         android:id="@+id/send_request_button"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Send Message"
-        android:layout_below="@+id/visit_username"
-        android:layout_margin="100dp"/>
+        android:layout_above="@+id/cancel_request_button"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="138dp"
+        android:layout_marginEnd="138dp"
+        android:layout_marginBottom="61dp"
+        android:text="Send Message" />
+
+    <Button
+        android:id="@+id/cancel_request_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/send_message_button"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="129dp"
+        android:layout_marginEnd="132dp"
+        android:layout_marginBottom="141dp"
+        android:text="Cancel Request"
+        android:visibility="invisible" />
 
 </RelativeLayout>

@@ -5,13 +5,14 @@
     android:layout_height="match_parent"
     tools:context=".Tab.ChatsFragment">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="156dp"
-        android:layout_marginBottom="320dp"
-        android:text="Chats Fragment" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/chats_list"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+    </androidx.recyclerview.widget.RecyclerView>
 
 </RelativeLayout>
